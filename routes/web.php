@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@getHome')->name('getHome');
+Route::get('/register', 'AuthController@getRegister')->name('getRegister');
