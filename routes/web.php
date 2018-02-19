@@ -13,3 +13,7 @@
 
 Route::get('/', 'HomeController@getHome')->name('getHome');
 Route::get('/register', 'AuthController@getRegister')->name('getRegister');
+
+//facebook OAuth
+Route::get('/redirect', 'AuthController@facebookRedirect');
+Route::get('/callback/{data}', 'AuthController@facebookCallback');
