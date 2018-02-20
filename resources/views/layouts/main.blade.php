@@ -10,7 +10,7 @@
       <meta property="og:description"   content="Your description" />
       <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
 
-    <title>Naposao</title>
+    <title>All Zen Well</title>
     <!-- Fonts -->
     <script src="https://use.fontawesome.com/a007057742.js"></script>
     <!-- CSS -->
