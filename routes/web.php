@@ -17,3 +17,7 @@ Route::get('/register', 'AuthController@getRegister')->name('getRegister');
 //facebook OAuth
 Route::get('/redirect', 'AuthController@facebookRedirect');
 Route::get('/callback/{data}', 'AuthController@facebookCallback');
+
+//Listings
+Route::get('/panel/all-listings', 'ListingController@getListings')->name('getListings');
+Route::get('/panel/new-listing', 'ListingController@newListing')->name('newListing');

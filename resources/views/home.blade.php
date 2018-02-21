@@ -14,7 +14,7 @@
 		  <ul class="nav masthead-nav">
 			<li class="active"><a href="#">About</a></li>
 			<li><a href="#">Sign Up</a></li>
-			<li><a href="#">Log In</a></li>
+			<li><a href="{{ route('getRegister') }}">Register/Login</a></li>
 			<li><a id="add_retreat" href="#">Add Retreat</a></li>
 		  </ul>
 		</nav>
